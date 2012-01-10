@@ -13,6 +13,6 @@
 %macro say_hello ;
   %local i ;
   %do i = 1 %to 10 ;
-    %put SUCCESS!!!  YOU CAN READ CODE FROM AN WEB SOURCE!!! ;
+    %put SUCCESS!!!  YOU CAN READ CODE FROM A WEB SOURCE!!! ;
   %end ;
 %mend say_hello ;
