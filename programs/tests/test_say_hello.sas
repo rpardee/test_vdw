@@ -40,9 +40,10 @@ options
 */
 
 %let my_sites_proxy_settings = ;
-%**let my_sites_proxy_settings = %str(proxy = 'http://proxy.ghc.org:8080') ;
+%let my_sites_proxy_settings = %str(proxy = 'http://proxy.ghc.org:8080') ;
 %let url = https://github.com/rpardee/test_vdw/raw/master/programs/say_hello.sas ;
-
+%let url = https://raw.github.com/rpardee/test_vdw/master/programs/say_hello.sas ;
+%let url = http://up1.centerforhealthstudies.org/sastest/say_hello.sas ;
 filename testprog
   URL "&url"
   &my_sites_proxy_settings
